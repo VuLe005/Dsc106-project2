@@ -138,6 +138,12 @@
           }
         }
       }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
     </style>
   <style>.rdp {
   --rdp-cell-size: 40px;
@@ -453,26 +459,40 @@
         Persuasive or Deceptive Visualization?
       </h1>
 
-      <p><strong>Your Name</strong> — <em>Your UCSD Email Address</em></p>
+      <p><strong>Neil Bango</strong> — <em>nbango@ucsd.edu</em></p>
+      <p><strong>Vu Le</strong> — <em>kile@ucsd.edu</em></p>
+      <p><strong>Adrian Kong</strong> — <em>ahkong@ucsd.edu</em></p>
     </header>
 
     <main>
-      <h2>Proposition: [STATE PROPOSITION]</h2>
+      <h2>Proposition: NYPD Police are racially biased</h2>
 
       <section>
         <h3>FOR the Proposition</h3>
 
         <figure>
-          <img src="./Project 2 Report_files/IMAGE_FILENAME" alt="">
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <img src="images/Complaints_by_Complainant_Ethnicity.png" alt="">
+          <figcaption>CCRB complaint counts by complainant ethnicity, with Black complainants filing the most complaints.</figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li><b>Design Decision:</b> We chose to display raw counts (the absolute number of complaints) instead of calculating and displaying rates. <br>
+              <b>Rationale:</b> The Intent was to make it seem like minorities (Black/Hispanic) were more prone racial bias and therefore were submitting more complaints.<br>
+              <b>Deception Score:</b> -2.0
+          </li>
+
+          <li><b>Design Decision:</b> We aggregated "Unknown," "Other," and similar marginal categories into a single, generic category "Unavailable/Other," and then positioned it highly in the ordering.<br>
+            <b>Rationale:</b> This was made to make it appear that races who do not fit a specific definition and are likewise minorities are also being racially biased against.<br>
+            <b>Deception Score:</b> -1.5
+          </li>
+
+          <li>
+            <b>Design Decision:</b> We sorted the data from highest to lowest.<br>
+            <b>Rationale:</b> We wanted to emphasize the minorities which are more likely to submit complaints by having the viewer see them first.<br>
+            <b>Deception Score:</b> -0.5
+          </li>
         </ul>
       </section>
 
