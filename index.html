@@ -500,16 +500,34 @@
         <h3>AGAINST the Proposition</h3>
 
         <figure>
-          <img src="./Project 2 Report_files/IMAGE_FILENAME" alt="">
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <img src="images/Substantiated_Complaints_by_Race.png" alt="Substantiated Cases by Race Pie Chart">
+          <figcaption>Substantiated Cases by Race</figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li><b>Design Decision:</b> Used a pie chart for data that don’t sum to 100% and omitted value labels.<br>
+            <b>Rationale:</b> I used a pie chart which makes it hard to tell the exact values of the chart. Because of this, readers may assume that all the slices represent a normal distribution, when in fact there is noticeable deviation. I chose this format because it is the hardest for viewers to accurately compare proportions.<br>
+            <b>Deception Score:</b> -1.0
+          </li>
+          <li>
+            <b>Design Decision:</b> Used substantiated rate within each race (substantiated / total complaints for that race).<br>
+            <b>Rationale:</b> The plotted values are the substantiation rates within each race, not the distribution of substantiated cases between races. The values themselves do not sum to 100%, which can mislead viewers into believing they represent shares of a whole. This works well because audiences naturally assume a pie chart shows proportions across all groups rather than within each one.<br>
+            <b>Deception Score:</b> -2.0
+          </li>
+
+          <li>
+            <b>Design Decision:</b> Only included substantiated cases.<br>
+            <b>Rationale:</b> I excluded “Unsubstantiated” and “Exonerated” cases, implying that only confirmed complaints exist. This omits important context about how many complaints were disproven or inconclusive, subtly exaggerating the seriousness of the substantiated category.<br>
+            <b>Deception Score:</b> -1.0
+          </li>
+
+          <li>
+            <b>Design Decision:</b> Did not include a note about totals or denominators.<br>
+            <b>Rationale:</b> The chart shows percentages rather than raw counts, and without clarifying the total number of complaints per race, it hides the fact that some groups may have submitted far fewer cases. This amplifies the perceived differences across races.<br>
+            <b>Deception Score:</b> -0.5
+          </li>
         </ul>
       </section>
 
